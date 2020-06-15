@@ -238,3 +238,4 @@ X_test = prepare_data1('./data/validation.csv')
 # X_train, X_test, y_train, y_test = train_test_split(text,labels, test_size=0.20, random_state=42)
 train_data , test_data = extract_feature('tfidf_word', X_train, X_test, y_train)
 classification_model(train_data ,test_data, y_train,'Adaboost')
+// Added
